@@ -42,6 +42,14 @@ Contributions, issues and feature requests are welcome! Start by:
 
 ## Pending and proposed features
 
-- Working buttons and links
-- Design improvments
-- Improved responsiveness
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- The original design is attributed to [Mathew Njuguna](https://www.behance.net/mathewnjuguna), [Sam Achola](https://www.behance.net/aweSam) and [Kevin Mutua](https://www.behance.net/kevinmutua), [original design](https://www.behance.net/gallery/25563385/PatashuleKE)
+
+## 📝 License
+
+- The original design is licenced under the [Creative Commons 4.0 licence](https://creativecommons.org/licenses/by-nc-nd/4.0/)

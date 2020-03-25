@@ -1,4 +1,12 @@
 html {
   font-size: 62.5%;
 }
+
+.w-100 {
+  width: 100%;
+}
+
+.margin-center {
+  margin: 0 auto;
+}
 /*# sourceMappingURL=style.css.map */
