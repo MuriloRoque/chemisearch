@@ -1,0 +1,30 @@
+header {
+  background-color: $color1;
+  padding: 0 7rem;
+  @include flexBetween(row, center);
+  color: $color2;
+  height: 7rem;
+  .logo-div {
+    align-self: flex-start;
+    .logo {
+      height: 5rem;
+    }
+    .logo-text {
+      font-size: 3rem;
+      letter-spacing: 0.1rem;
+    }
+  }
+  nav {
+    @include flexCenter(row, flex-end);
+    .icons {
+      height: 1.5rem;
+      margin: 0 0.5rem 0 2rem;
+    }
+    a {
+      text-decoration: none;
+      color: $color2;
+      font-size: 1.2rem;
+      @include flexCenter(row, flex-start);
+    }
+  }
+}

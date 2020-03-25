@@ -1,13 +1,13 @@
+html {
+  font-size: 62.5%;
+}
+
 @import "./variables";
 @import "./mixins";
 @import "./header";
 @import "./nav";
 @import "./main";
 @import "./footer";
-
-html {
-  font-size: 62.5%;
-}
 
 .w-100 {
   width: 100%;

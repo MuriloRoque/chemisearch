@@ -1,5 +1,20 @@
-@mixin flexCenter($direction) {
+@mixin flexCenter($direction, $align) {
   display: flex;
   justify-content: center;
+  align-items: $align;
+  flex-direction: $direction;
+}
+
+@mixin flexAround($direction, $align) {
+  display: flex;
+  justify-content: space-around;
+  align-items: $align;
+  flex-direction: $direction;
+}
+
+@mixin flexBetween($direction, $align) {
+  display: flex;
+  justify-content: space-between;
+  align-items: $align;
   flex-direction: $direction;
 }
