@@ -454,6 +454,57 @@ header nav a {
 
 .bottom-nav {
   background-color: #000;
+  padding: 5rem;
+}
+
+.bottom-nav div {
+  position: relative;
+  width: 90%;
+  border-top: 0.2rem solid #e7e4e44b;
+  border-bottom: 0.2rem solid #e7e4e44b;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 2rem 0;
+}
+
+.bottom-nav div a {
+  margin: 0;
+  text-decoration: none;
+  font-size: 2rem;
+  color: #fff;
+}
+
+.bottom-nav div .facebook {
+  margin-left: 5rem;
+}
+
+.bottom-nav div .advertise {
+  margin-right: 5rem;
+}
+
+.bottom-nav div .footer-logo {
+  position: absolute;
+  border-radius: 50%;
+  border: 0.2rem solid #e7e4e44b;
+  width: 10rem;
+  height: 10rem;
+  text-align: center;
+  background-color: #000;
+}
+
+.bottom-nav div .footer-logo img {
+  width: 4rem;
+  margin-top: 2rem;
 }
 
 .sub-con-ab {

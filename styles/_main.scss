@@ -257,9 +257,43 @@
 }
 
 .bottom-nav {
-  background-color: #000;
+  background-color: $color15;
+  padding: 5rem;
+  div {
+    position: relative;
+    width: 90%;
+    border-top: 0.2rem solid #e7e4e44b;
+    border-bottom: 0.2rem solid #e7e4e44b;
+    @include flexAround(row, center);
+    padding: 2rem 0;
+    a {
+      margin: 0;
+      text-decoration: none;
+      font-size: 2rem;
+      color: $color2;
+    }
+    .facebook {
+      margin-left: 5rem;
+    }
+    .advertise {
+      margin-right: 5rem;
+    }
+    .footer-logo {
+      position: absolute;
+      border-radius: 50%;
+      border: 0.2rem solid #e7e4e44b;
+      width: 10rem;
+      height: 10rem;
+      text-align: center;
+      background-color: $color15;
+      img {
+        width: 4rem;
+        margin-top: 2rem;
+      }
+    }
+  }
 }
 
 .sub-con-ab {
-  background-color: #000;
+  background-color: $color15;
 }
