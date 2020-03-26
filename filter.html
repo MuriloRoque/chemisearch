@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="images/icon.png" sizes="96x96" />
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <title>Chemisearch - Results</title>
+  </head>
+
+  <body class="w-100 margin-center">
+    <header class="w-100">
+      <a href="index.html" class="logo-link">
+        <picture><img class="logo" src="images/logo.png" alt="Logo"/></picture>
+        <span class="logo-text">chemisearch</span>
+      </a>
+      <nav>
+        <a href="results.html"
+          ><img
+            class="icons"
+            src="images/search.png"
+            alt="Search Icon"
+          />COMPANIES</a
+        >
+        <a href="#"
+          ><img class="icons" src="images/user.png" alt="About Icon" />ABOUT</a
+        >
+        <a href="#"
+          ><img class="icons" src="images/feed.png" alt="Feed Icon" />BLOG</a
+        >
+        <a href="#"
+          ><img
+            class="icons"
+            src="images/three-lines.png"
+            alt="More Icon"
+          />MORE...</a
+        >
+      </nav>
+    </header>
+    <section class="filter-section">
+      <h1>Filter by name, category, state, distance and price range:</h1>
+      <form action="#">
+        <div>
+          <label for="name">STORE NAME:</label
+          ><input type="text" name="name" id="name" />
+        </div>
+        <div>
+          <label for="category">CATEGORY:</label
+          ><select name="category" id="category"
+            ><option value="none"></option
+            ><option value="oil">Oil</option
+            ><option value="acid">Acid</option
+            ><option value="alcohol">Alcohol</option
+            ><option value="ester">Ester</option
+            ><option value="ether">Ether</option
+            ><option value="solvent">Solvent</option
+            ><option value="fuel">Fuel</option
+            ><option value="detergent">Detergent</option
+            ><option value="pesticide">Pesticide</option
+            ><option value="xylene">Xylene</option></select
+          >
+        </div>
+        <div>
+          <label for="state">STATE:</label
+          ><select name="state" id="state">
+            <option value="none"></option>
+            <option value="AC,">AC</option>
+            <option value="AL,">AL</option>
+            <option value="AP,">AP</option>
+            <option value="AM,">AM</option>
+            <option value="BA,">BA</option>
+            <option value="CE,">CE</option>
+            <option value="DF,">DF</option>
+            <option value="ES,">ES</option>
+            <option value="GO,">GO</option>
+            <option value="MA,">MA</option>
+            <option value="MT,">MT</option>
+            <option value="MS,">MS</option>
+            <option value="MG,">MG</option>
+            <option value="PA,">PA</option>
+            <option value="PB,">PB</option>
+            <option value="PR,">PR</option>
+            <option value="PE,">PE</option>
+            <option value="PI,">PI</option>
+            <option value="RJ,">RJ</option>
+            <option value="RN,">RN</option>
+            <option value="RS,">RS</option>
+            <option value="RO,">RO</option>
+            <option value="RR,">RR</option>
+            <option value="SC,">SC</option>
+            <option value="SP,">SP</option>
+            <option value="SE,">SE</option>
+            <option value="TO,">TO</option>
+          </select>
+        </div>
+        <div>
+          <label for="distance">DISTANCE:</label
+          ><select name="distance" id="distance"
+            ><option value="none"></option
+            ><option value="less-50">Less than 50 km</option
+            ><option value="50-100">Between 50 and 100 km</option
+            ><option value="100-200">Between 100 and 200 km</option
+            ><option value="200-500">Between 200 and 500 km</option
+            ><option value="more-500">More than 500 km</option></select
+          >
+        </div>
+        <div>
+          <label for="price">PRICE RANGE:</label
+          ><select name="price" id="price"
+            ><option value="none"></option
+            ><option value="$">$</option
+            ><option value="$$">$$</option
+            ><option value="$$$">$$$</option
+            ><option value="$$$$">$$$$</option
+            ><option value="$$$$$">$$$$$</option></select
+          >
+        </div>
+        <a class="search-results" href="results.html">Search</a>
+        <a class="clear-filter" href="filter.html"
+          ><img src="images/clear.png" alt="Clear Icon" />clear filter</a
+        >
+      </form>
+    </section>
+    <nav class="bottom-nav">
+      <div class="margin-center">
+        <a href="#">HOME</a>
+        <a href="#">SEARCH</a>
+        <a href="#">ABOUT US</a>
+        <a class="advertise" href="#">ADVERTISE</a>
+        <a class="footer-logo" href="#"
+          ><img src="images/logo.png" alt="Icon"
+        /></a>
+        <a class="facebook" href="#">FACEBOOK</a>
+        <a href="#">TWITTER</a>
+        <a href="#">BLOG</a>
+        <a href="#">GOOGLE +</a>
+      </div>
+    </nav>
+    <section class="sub-con-ab">
+      <div class="sub">
+        <h1>SUBSCRIBE</h1>
+        <div>
+          <label class="d-none" for="subscribe"></label
+          ><input
+            type="email"
+            name="subscribe"
+            id="subscribe"
+            placeholder="you@example.com"
+          /><a class="sub-send" href="#">send</a>
+        </div>
+      </div>
+      <div class="con">
+        <h1>CONTACT</h1>
+        Have a question or submission?<a href="#" class="d-block red-text"
+          >info@chemisearch.com</a
+        >
+      </div>
+      <div class="ab">
+        <h1>ABOUT</h1>
+        Chemisearch is an online platform that assists Brazillians to find a
+        suitable store by simply searching by category, distance, price range,
+        etc. <a href="#" class="red-text">Learn more...</a>
+      </div>
+    </section>
+    <footer>
+      <div>
+        <a href="#"
+          ><img
+            src="images/facebook (2).png"
+            alt="Facebook Icon"
+            class="social-icons"
+        /></a>
+        <a href="#"
+          ><img
+            src="images/twitter (2).png"
+            alt="Twitter Icon"
+            class="social-icons"
+        /></a>
+        <a href="#"
+          ><img
+            src="images/google (2).png"
+            alt="Google plus Icon"
+            class="social-icons"
+        /></a>
+        <a href="#"
+          ><img
+            src="images/instagram (2).png"
+            alt="Instagram Icon"
+            class="social-icons"
+        /></a>
+      </div>
+      <div>CHEMISEARCH 2020. ALL RIGHTS RESERVED.</div>
+    </footer>
+  </body>
+</html>

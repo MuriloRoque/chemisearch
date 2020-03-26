@@ -1,6 +1,7 @@
 html {
   font-size: 62.5%;
   font-family: Helvetica;
+  scroll-behavior: smooth;
 }
 
 header {
@@ -635,6 +636,103 @@ footer {
 footer .social-icons {
   margin-right: 1rem;
   width: 2rem;
+}
+
+.filter-section {
+  background-color: #eee;
+  color: #929399;
+  text-align: center;
+  padding: 4rem 1rem 8rem 1rem;
+}
+
+.filter-section h1 {
+  margin-bottom: 3rem;
+}
+
+.filter-section form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.filter-section form div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-right: 0.5rem;
+}
+
+.filter-section form div label {
+  color: #4d4c54;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.filter-section form div input,
+.filter-section form div select {
+  border: 0.05rem solid #cfd1d7;
+  height: 3rem;
+  padding-left: 0.5rem;
+  font-size: 1.5rem;
+  border-radius: 0.5rem;
+}
+
+.filter-section form div #state,
+.filter-section form div #price {
+  width: 10rem;
+}
+
+.filter-section form a {
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+  padding: 0.6rem 1rem;
+  border-radius: 0.5rem;
+}
+
+.filter-section form .search-results {
+  background-color: #457eb4;
+  margin-right: 0.5rem;
+}
+
+.filter-section form .search-results:hover {
+  background-color: #fff;
+  color: #457eb4;
+}
+
+.filter-section form .clear-filter {
+  background-color: #e5ab5a;
+}
+
+.filter-section form .clear-filter:hover {
+  background-color: #929399;
+  color: #fff;
+}
+
+.filter-section form .clear-filter img {
+  width: 1.2rem;
+  margin: auto 0.5rem auto 0;
 }
 
 .w-100 {

@@ -1,6 +1,7 @@
 html {
   font-size: 62.5%;
   font-family: Helvetica;
+  scroll-behavior: smooth;
 }
 
 @import "./variables";
@@ -8,6 +9,7 @@ html {
 @import "./header";
 @import "./main";
 @import "./footer";
+@import "./filter";
 
 .w-100 {
   width: 100%;
