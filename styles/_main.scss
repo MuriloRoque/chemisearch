@@ -46,3 +46,33 @@
     border-radius: 0.5rem;
   }
 }
+
+.steps-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  .four-steps {
+    grid-column: 1 / -1;
+    color: $color10;
+    margin: 7rem 0;
+  }
+  .step {
+    width: 38rem;
+    @include flexCenter(column, center);
+    margin-bottom: 4rem;
+    img {
+      width: 4rem;
+    }
+    h2 {
+      font-size: 2.5rem;
+    }
+    p {
+      margin-top: 0;
+      text-align: center;
+      font-size: 1.8rem;
+      line-height: 2.5rem;
+      color: $color5;
+      font-weight: 500;
+    }
+  }
+}
