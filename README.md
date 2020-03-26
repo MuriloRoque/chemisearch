@@ -1,6 +1,6 @@
 # Capstone Project
 
-This is a
+This is a search engine called Chemisearch, where you can search for companies that sells these products:
 
 ![screenshot](https://media.giphy.com/media/LRxXMIKTP1IuymQmJ9/giphy.gif)
 
