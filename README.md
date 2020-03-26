@@ -2,7 +2,7 @@
 
 This is a
 
-![screenshot](https://media.giphy.com/media/LRxXMIKTP1IuymQmJ9/200w_d.gif)
+![screenshot](https://giphy.com/gifs/LRxXMIKTP1IuymQmJ9/html5)
 
 # What it does
 
