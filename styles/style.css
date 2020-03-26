@@ -19,21 +19,27 @@ header {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  color: #fff;
   height: 7rem;
 }
 
-header .logo-div {
+header .logo-link {
   -ms-flex-item-align: start;
       align-self: flex-start;
+  text-decoration: none;
 }
 
-header .logo-div .logo {
+header .logo-link:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+header .logo-link .logo {
   height: 5rem;
 }
 
-header .logo-div .logo-text {
+header .logo-link .logo-text {
   font-size: 3rem;
+  color: #fff;
 }
 
 header nav {
@@ -75,6 +81,11 @@ header nav a {
       -ms-flex-direction: row;
           flex-direction: row;
   font-weight: 500;
+}
+
+header nav a:hover {
+  -webkit-transform: rotate(-10deg);
+          transform: rotate(-10deg);
 }
 
 .search-section {
@@ -162,6 +173,11 @@ header nav a {
   font-weight: 500;
 }
 
+.search-section .search-div div a:hover {
+  background-color: #929399;
+  color: #000;
+}
+
 .search-section .how-it-works {
   text-decoration: none;
   color: #000;
@@ -170,6 +186,12 @@ header nav a {
   padding: 1rem 2rem;
   font-size: 1.5rem;
   border-radius: 0.5rem;
+}
+
+.search-section .how-it-works:hover {
+  background-color: #d45749;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 .steps-section {
@@ -257,6 +279,11 @@ header nav a {
   font-weight: 700;
   padding: 1rem 0.5rem;
   background-color: #fff;
+}
+
+.info-section article a:hover {
+  background-color: #d45749;
+  color: #fff;
 }
 
 .info-section article .round-img {
@@ -484,6 +511,10 @@ header nav a {
   color: #fff;
 }
 
+.bottom-nav div a:hover {
+  color: #519bd8;
+}
+
 .bottom-nav div .facebook {
   margin-left: 5rem;
 }
@@ -505,6 +536,11 @@ header nav a {
 .bottom-nav div .footer-logo img {
   width: 4rem;
   margin-top: 2rem;
+}
+
+.bottom-nav div .footer-logo img:hover {
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
 }
 
 .sub-con-ab {
@@ -547,6 +583,10 @@ header nav a {
   text-decoration: none;
 }
 
+.sub-con-ab .red-text:hover {
+  color: #fff;
+}
+
 .sub-con-ab input {
   background-color: #000;
   color: #ece8e8ab;
@@ -564,6 +604,37 @@ header nav a {
   background-color: #e7e4e44b;
   height: 9rem;
   padding: 1rem 3.1rem;
+}
+
+.sub-con-ab .sub-send:hover {
+  background-color: #5e5e5e;
+  color: #000;
+}
+
+footer {
+  background-color: #1f1f1f;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 3rem 1rem;
+  color: #5e5e5e;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+footer .social-icons {
+  margin-right: 1rem;
+  width: 2rem;
 }
 
 .w-100 {

@@ -35,6 +35,10 @@
         padding: 1rem 2rem;
         font-size: 1.5rem;
         font-weight: 500;
+        &:hover {
+          background-color: $color4;
+          color: $color15;
+        }
       }
     }
   }
@@ -46,6 +50,10 @@
     padding: 1rem 2rem;
     font-size: 1.5rem;
     border-radius: 0.5rem;
+    &:hover {
+      background-color: $color1;
+      transform: scale(1.2);
+    }
   }
 }
 
@@ -100,6 +108,10 @@
       font-weight: 700;
       padding: 1rem 0.5rem;
       background-color: $color2;
+      &:hover {
+        background-color: $color1;
+        color: $color2;
+      }
     }
     .round-img {
       border-radius: 50%;
@@ -271,6 +283,9 @@
       text-decoration: none;
       font-size: 2rem;
       color: $color2;
+      &:hover {
+        color: $color14;
+      }
     }
     .facebook {
       margin-left: 5rem;
@@ -289,6 +304,9 @@
       img {
         width: 4rem;
         margin-top: 2rem;
+        &:hover {
+          transform: scale(1.3);
+        }
       }
     }
   }
@@ -316,6 +334,9 @@
   .red-text {
     color: $color1;
     text-decoration: none;
+    &:hover {
+      color: $color2;
+    }
   }
   input {
     background-color: $color15;
@@ -333,5 +354,9 @@
     background-color: #e7e4e44b;
     height: 9rem;
     padding: 1rem 3.1rem;
+    &:hover {
+      background-color: $color20;
+      color: $color15;
+    }
   }
 }
