@@ -1,5 +1,6 @@
 html {
   font-size: 62.5%;
+  font-family: Helvetica;
 }
 
 header {
@@ -33,7 +34,6 @@ header .logo-div .logo {
 
 header .logo-div .logo-text {
   font-size: 3rem;
-  letter-spacing: 0.1rem;
 }
 
 header nav {
@@ -74,6 +74,100 @@ header nav a {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  font-weight: 500;
+}
+
+.search-section {
+  background: url(/images/background.jpg), no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.search-section h1 {
+  color: #eee;
+  margin: 7rem 0 2rem 0;
+  font-size: 3rem;
+}
+
+.search-section .search-div {
+  background-color: #d8d2cbd7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 4rem 5rem 3.5rem 3.5rem;
+  border-radius: 1rem;
+  width: 91.684rem;
+}
+
+.search-section .search-div label {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  font-weight: 700;
+  color: #4d4c54;
+  font-size: 1.5rem;
+}
+
+.search-section .search-div div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.search-section .search-div div input {
+  width: 70rem;
+  height: 4.2rem;
+  border: none;
+  padding: 0;
+}
+
+.search-section .search-div div a {
+  background-color: #d45749;
+  text-decoration: none;
+  color: #fff;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.search-section .how-it-works {
+  text-decoration: none;
+  color: #000;
+  margin: 3.5rem 0 9rem 0;
+  background-color: #cfd1d7;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  border-radius: 0.5rem;
 }
 
 .w-100 {

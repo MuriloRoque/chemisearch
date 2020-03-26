@@ -1,11 +1,11 @@
 html {
   font-size: 62.5%;
+  font-family: Helvetica;
 }
 
 @import "./variables";
 @import "./mixins";
 @import "./header";
-@import "./nav";
 @import "./main";
 @import "./footer";
 

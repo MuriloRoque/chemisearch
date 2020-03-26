@@ -1,0 +1,48 @@
+.search-section {
+  background: url(/images/background.jpg), no-repeat;
+  @include flexCenter(column, center);
+  h1 {
+    color: $color3;
+    margin: 7rem 0 2rem 0;
+    font-size: 3rem;
+  }
+  .search-div {
+    background-color: $color19;
+    @include flexCenter(column, flex-start);
+    padding: 4rem 5rem 3.5rem 3.5rem;
+    border-radius: 1rem;
+    width: 91.684rem;
+    label {
+      align-self: flex-start;
+      font-weight: 700;
+      color: $color5;
+      font-size: 1.5rem;
+    }
+    div {
+      @include flexCenter(row, center);
+      input {
+        width: 70rem;
+        height: 4.2rem;
+        border: none;
+        padding: 0;
+      }
+      a {
+        background-color: $color1;
+        text-decoration: none;
+        color: $color2;
+        padding: 1rem 2rem;
+        font-size: 1.5rem;
+        font-weight: 500;
+      }
+    }
+  }
+  .how-it-works {
+    text-decoration: none;
+    color: $color15;
+    margin: 3.5rem 0 9rem 0;
+    background-color: $color11;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+  }
+}
