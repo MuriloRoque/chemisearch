@@ -149,6 +149,8 @@ header nav a {
   height: 4.2rem;
   border: none;
   padding: 0;
+  outline: none;
+  font-size: 2.5rem;
 }
 
 .search-section .search-div div a {
@@ -217,6 +219,245 @@ header nav a {
   line-height: 2.5rem;
   color: #4d4c54;
   font-weight: 500;
+}
+
+.info-section article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 30rem;
+  padding: 2rem 7rem;
+}
+
+.info-section article h4 {
+  color: #fff;
+  font-size: 2rem;
+  margin: 0;
+}
+
+.info-section article p {
+  color: #fff;
+  font-size: 1.3rem;
+  margin-bottom: 4rem;
+}
+
+.info-section article a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 1rem 0.5rem;
+  background-color: #fff;
+}
+
+.info-section article .round-img {
+  border-radius: 50%;
+  width: 26rem;
+  height: 26rem;
+}
+
+.info-section article div {
+  width: 40rem;
+}
+
+.info-section .registered {
+  background-color: #e27e65;
+}
+
+.info-section .registered a {
+  color: #e27e65;
+}
+
+.info-section .registered picture {
+  position: relative;
+}
+
+.info-section .registered picture img[class^="abs-img"] {
+  position: absolute;
+}
+
+.info-section .registered picture img[class^="abs-img"]:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.info-section .registered picture .abs-img1 {
+  top: 2.5rem;
+  right: 5rem;
+}
+
+.info-section .registered picture .abs-img2 {
+  top: 4.5rem;
+  right: 5.5rem;
+}
+
+.info-section .registered picture .abs-img3 {
+  top: 5.5rem;
+  right: 5.8rem;
+}
+
+.info-section .registered picture .abs-img4 {
+  top: 12rem;
+  right: 7rem;
+}
+
+.info-section .registered picture .abs-img5 {
+  top: 10rem;
+  right: 15rem;
+}
+
+.info-section .registered picture .abs-img6 {
+  top: 22rem;
+  right: 13rem;
+}
+
+.info-section .registered picture .abs-img7 {
+  top: 10rem;
+  right: 3rem;
+}
+
+.info-section .registered picture .abs-img8 {
+  top: 10rem;
+  right: 20rem;
+}
+
+.info-section .registered picture .abs-img9 {
+  top: 9rem;
+  right: 3rem;
+}
+
+.info-section .registered picture .abs-img10 {
+  top: 20rem;
+  right: 7rem;
+}
+
+.info-section .registered picture .abs-img11 {
+  top: 2.5rem;
+  right: 9rem;
+}
+
+.info-section .registered picture .abs-img12 {
+  top: 9rem;
+  right: 7rem;
+}
+
+.info-section .registered picture .abs-img13 {
+  top: 10rem;
+  right: 5rem;
+}
+
+.info-section .registered picture .abs-img14 {
+  top: 15rem;
+  right: 18rem;
+}
+
+.info-section .registered picture .abs-img15 {
+  top: 20rem;
+  right: 10rem;
+}
+
+.info-section .registered picture .abs-img16 {
+  top: 21rem;
+  right: 14rem;
+}
+
+.info-section .registered picture .abs-img17 {
+  top: 20rem;
+  right: 13rem;
+}
+
+.info-section .registered picture .abs-img18 {
+  top: 18rem;
+  right: 13rem;
+}
+
+.info-section .registered picture .abs-img19 {
+  top: 17rem;
+  right: 6.5rem;
+}
+
+.info-section .registered picture .abs-img20 {
+  top: 14rem;
+  right: 5rem;
+}
+
+.info-section .registered picture .abs-img21 {
+  top: 9rem;
+  right: 17rem;
+}
+
+.info-section .registered picture .abs-img22 {
+  top: 6rem;
+  right: 18rem;
+}
+
+.info-section .registered picture .abs-img23 {
+  top: 2.5rem;
+  right: 18rem;
+}
+
+.info-section .registered picture .abs-img24 {
+  top: 9rem;
+  right: 13rem;
+}
+
+.info-section .registered picture .abs-img25 {
+  top: 10rem;
+  right: 15rem;
+}
+
+.info-section .registered picture .abs-img26 {
+  top: 10rem;
+  right: 12rem;
+}
+
+.info-section .registered picture .abs-img27 {
+  top: 2.5rem;
+  right: 14rem;
+}
+
+.info-section .registered picture .abs-img28 {
+  top: 2.5rem;
+  right: 16rem;
+}
+
+.info-section .registered picture .abs-img29 {
+  top: 16rem;
+  right: 16rem;
+}
+
+.info-section .registered picture .abs-img30 {
+  top: 20rem;
+  right: 18rem;
+}
+
+.info-section .no-need {
+  background-color: #98a5a6;
+}
+
+.info-section .no-need a {
+  color: #98a5a6;
+}
+
+.info-section .anytime {
+  background-color: #519bd8;
+}
+
+.bottom-nav {
+  background-color: #000;
+}
+
+.sub-con-ab {
+  background-color: #000;
 }
 
 .w-100 {

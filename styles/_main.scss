@@ -25,6 +25,8 @@
         height: 4.2rem;
         border: none;
         padding: 0;
+        outline: none;
+        font-size: 2.5rem;
       }
       a {
         background-color: $color1;
@@ -75,4 +77,189 @@
       font-weight: 500;
     }
   }
+}
+
+.info-section {
+  article {
+    @include flexBetween(row, center);
+    height: 30rem;
+    padding: 2rem 7rem;
+    h4 {
+      color: $color2;
+      font-size: 2rem;
+      margin: 0;
+    }
+    p {
+      color: $color2;
+      font-size: 1.3rem;
+      margin-bottom: 4rem;
+    }
+    a {
+      text-decoration: none;
+      font-size: 1.5rem;
+      font-weight: 700;
+      padding: 1rem 0.5rem;
+      background-color: $color2;
+    }
+    .round-img {
+      border-radius: 50%;
+      width: 26rem;
+      height: 26rem;
+    }
+    div {
+      width: 40rem;
+    }
+  }
+  .registered {
+    background-color: $color12;
+    a {
+      color: $color12;
+    }
+    picture {
+      position: relative;
+      img[class^="abs-img"] {
+        position: absolute;
+        &:hover {
+          transform: scale(1.2);
+        }
+      }
+      .abs-img1 {
+        top: 2.5rem;
+        right: 5rem;
+      }
+      .abs-img2 {
+        top: 4.5rem;
+        right: 5.5rem;
+      }
+      .abs-img3 {
+        top: 5.5rem;
+        right: 5.8rem;
+      }
+      .abs-img4 {
+        top: 12rem;
+        right: 7rem;
+      }
+      .abs-img5 {
+        top: 10rem;
+        right: 15rem;
+      }
+      .abs-img6 {
+        top: 22rem;
+        right: 13rem;
+      }
+      .abs-img7 {
+        top: 10rem;
+        right: 3rem;
+      }
+      .abs-img8 {
+        top: 10rem;
+        right: 20rem;
+      }
+      .abs-img9 {
+        top: 9rem;
+        right: 3rem;
+      }
+      .abs-img10 {
+        top: 20rem;
+        right: 7rem;
+      }
+      .abs-img11 {
+        top: 2.5rem;
+        right: 9rem;
+      }
+      .abs-img12 {
+        top: 9rem;
+        right: 7rem;
+      }
+      .abs-img13 {
+        top: 10rem;
+        right: 5rem;
+      }
+      .abs-img14 {
+        top: 15rem;
+        right: 18rem;
+      }
+      .abs-img15 {
+        top: 20rem;
+        right: 10rem;
+      }
+      .abs-img16 {
+        top: 21rem;
+        right: 14rem;
+      }
+      .abs-img17 {
+        top: 20rem;
+        right: 13rem;
+      }
+      .abs-img18 {
+        top: 18rem;
+        right: 13rem;
+      }
+      .abs-img19 {
+        top: 17rem;
+        right: 6.5rem;
+      }
+      .abs-img20 {
+        top: 14rem;
+        right: 5rem;
+      }
+      .abs-img21 {
+        top: 9rem;
+        right: 17rem;
+      }
+      .abs-img22 {
+        top: 6rem;
+        right: 18rem;
+      }
+      .abs-img23 {
+        top: 2.5rem;
+        right: 18rem;
+      }
+      .abs-img24 {
+        top: 9rem;
+        right: 13rem;
+      }
+      .abs-img25 {
+        top: 10rem;
+        right: 15rem;
+      }
+      .abs-img26 {
+        top: 10rem;
+        right: 12rem;
+      }
+      .abs-img27 {
+        top: 2.5rem;
+        right: 14rem;
+      }
+      .abs-img28 {
+        top: 2.5rem;
+        right: 16rem;
+      }
+      .abs-img29 {
+        top: 16rem;
+        right: 16rem;
+      }
+      .abs-img30 {
+        top: 20rem;
+        right: 18rem;
+      }
+    }
+  }
+  .no-need {
+    background-color: $color13;
+    a {
+      color: $color13;
+    }
+  }
+  .anytime {
+    background-color: $color14;
+  }
+}
+
+.bottom-nav {
+  background-color: #000;
+}
+
+.sub-con-ab {
+  background-color: #000;
 }
