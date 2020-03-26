@@ -148,7 +148,7 @@ header nav a {
   width: 70rem;
   height: 4.2rem;
   border: none;
-  padding: 0;
+  padding: 0 0 0 1rem;
   outline: none;
   font-size: 2.5rem;
 }
@@ -509,6 +509,61 @@ header nav a {
 
 .sub-con-ab {
   background-color: #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  text-align: center;
+  padding: 0 5% 2rem 5%;
+  color: #929399;
+  font-size: 1.5rem;
+}
+
+.sub-con-ab .sub,
+.sub-con-ab .ab {
+  width: 35rem;
+}
+
+.sub-con-ab .con {
+  width: 30rem;
+}
+
+.sub-con-ab h1 {
+  color: #fff;
+  font-weight: 400;
+  margin: 0 0 2rem 0;
+}
+
+.sub-con-ab .red-text {
+  color: #d45749;
+  text-decoration: none;
+}
+
+.sub-con-ab input {
+  background-color: #000;
+  color: #ece8e8ab;
+  padding: 1.2rem 0.8rem 1rem 0.8rem;
+  outline: none;
+  width: 24rem;
+  height: 3.7rem;
+  border: 0.2rem solid #e7e4e44b;
+}
+
+.sub-con-ab .sub-send {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5rem;
+  background-color: #e7e4e44b;
+  height: 9rem;
+  padding: 1rem 3.1rem;
 }
 
 .w-100 {
@@ -517,5 +572,13 @@ header nav a {
 
 .margin-center {
   margin: 0 auto;
+}
+
+.d-none {
+  display: none;
+}
+
+.d-block {
+  display: block;
 }
 /*# sourceMappingURL=style.css.map */

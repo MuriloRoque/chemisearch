@@ -24,7 +24,7 @@
         width: 70rem;
         height: 4.2rem;
         border: none;
-        padding: 0;
+        padding: 0 0 0 1rem;
         outline: none;
         font-size: 2.5rem;
       }
@@ -296,4 +296,42 @@
 
 .sub-con-ab {
   background-color: $color15;
+  @include flexAround(row, flex-start);
+  text-align: center;
+  padding: 0 5% 2rem 5%;
+  color: $color4;
+  font-size: 1.5rem;
+  .sub,
+  .ab {
+    width: 35rem;
+  }
+  .con {
+    width: 30rem;
+  }
+  h1 {
+    color: $color2;
+    font-weight: 400;
+    margin: 0 0 2rem 0;
+  }
+  .red-text {
+    color: $color1;
+    text-decoration: none;
+  }
+  input {
+    background-color: $color15;
+    color: #ece8e8ab;
+    padding: 1.2rem 0.8rem 1rem 0.8rem;
+    outline: none;
+    width: 24rem;
+    height: 3.7rem;
+    border: 0.2rem solid #e7e4e44b;
+  }
+  .sub-send {
+    color: $color2;
+    text-decoration: none;
+    font-size: 1.5rem;
+    background-color: #e7e4e44b;
+    height: 9rem;
+    padding: 1rem 3.1rem;
+  }
 }
