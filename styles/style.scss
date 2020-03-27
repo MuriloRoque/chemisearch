@@ -10,6 +10,7 @@ html {
 @import "./main";
 @import "./footer";
 @import "./filter";
+@import "./detail";
 
 .w-100 {
   width: 100%;
@@ -25,4 +26,8 @@ html {
 
 .d-block {
   display: block;
+}
+
+.d-inline-block {
+  display: inline-block;
 }
