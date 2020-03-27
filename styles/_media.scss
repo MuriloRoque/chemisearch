@@ -23,6 +23,15 @@
       }
     }
   }
+  .search-section {
+    .search-div {
+      div {
+        a {
+          background-color: $color6;
+        }
+      }
+    }
+  }
   .steps-section {
     grid-template-columns: 1fr;
   }
@@ -49,18 +58,201 @@
       height: fit-content;
     }
   }
-  form {
-    flex-wrap: wrap;
-    .search-results {
-      margin: 2rem 30rem;
+  .filter-section {
+    form {
+      display: block;
+      .select-div {
+        flex-wrap: wrap;
+        margin-bottom: 2rem;
+      }
     }
-    .clear-filter {
+  }
+
+  .search-results-section {
+    div {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  header {
+    display: block;
+    text-align: center;
+    height: 20%;
+    padding: 0;
+    a {
+      display: block;
+    }
+    nav {
+      .icons {
+        margin: 0;
+        width: 3rem;
+        height: 3rem;
+      }
+      a {
+        margin: 1rem 2.5rem 1rem 2.5rem;
+      }
+    }
+  }
+  .search-section {
+    h1 {
+      width: 98%;
+      line-height: 3rem;
+      font-size: 2.5rem;
+      margin-top: 20rem;
+    }
+    .search-div {
+      width: 98%;
+      padding: 1rem 1.5rem 1.5rem 1rem;
+      div {
+        display: block;
+        input {
+          width: 100%;
+        }
+        a {
+          font-weight: 700;
+          text-align: center;
+          margin-top: 1rem;
+          display: block;
+          width: 100%;
+          background-color: $color1;
+        }
+      }
+    }
+  }
+  .steps-section {
+    .step {
+      width: 100%;
+      max-width: 38rem;
+    }
+  }
+  .info-section {
+    article {
+      flex-direction: column;
+      height: fit-content;
+      padding: 2rem 1rem;
+      picture {
+        width: 70%;
+        height: 100%;
+        img {
+          display: none;
+        }
+      }
+      .round-img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+      }
+      div {
+        width: 100%;
+        margin-bottom: 5rem;
+        text-align: center;
+      }
+    }
+  }
+  .bottom-nav {
+    padding: 5rem 1rem;
+    div {
+      a {
+        margin: 0 1rem;
+      }
+      width: 100%;
+      flex-wrap: wrap;
+      .footer-logo {
+        display: none;
+      }
+      .advertise {
+        margin-right: 1rem;
+      }
+      .facebook {
+        margin-left: 1rem;
+      }
+    }
+  }
+  .sub-con-ab {
+    display: block;
+    .sub,
+    .con,
+    .ab {
+      width: 100%;
       margin-bottom: 2rem;
+    }
+    h1 {
+      font-size: 1.5rem;
+    }
+    input {
+      width: 100%;
+    }
+  }
+  .filter-section {
+    form {
+      div {
+        width: 100%;
+        input,
+        select {
+          width: 100%;
+        }
+        #state,
+        #price {
+          width: 100%;
+        }
+      }
     }
   }
   .search-results-section {
     div {
-      grid-template-columns: repeat(2, 1fr);
+      grid-template-columns: 1fr;
+    }
+  }
+}
+
+@media only screen and (max-width: 340px) {
+  header {
+    nav {
+      flex-wrap: wrap;
+    }
+  }
+  .sub-con-ab {
+    font-size: 0.9rem;
+    .sub-send {
+      padding: 0.5rem 1rem;
+    }
+    h1 {
+      font-size: 1.1rem;
+    }
+  }
+  footer {
+    font-size: 1rem;
+    .social-icons {
+      width: 1rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 200px) {
+  .filter-section {
+    form {
+      .form-buttons {
+        display: block;
+        .search-results,
+        .clear-filter {
+          margin-bottom: 1rem;
+          display: block;
+          width: 100%;
+        }
+      }
+    }
+  }
+  .sub-con-ab {
+    font-size: 0.9rem;
+    .sub-send {
+      font-size: 0.8rem;
+      padding: 0.5rem 1rem;
+    }
+    h1 {
+      font-size: 0.8rem;
     }
   }
 }

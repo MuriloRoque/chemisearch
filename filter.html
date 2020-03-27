@@ -43,85 +43,89 @@
     <section class="filter-section">
       <h1>Filter by name, category, state, distance and price range:</h1>
       <form action="#">
-        <div>
-          <label for="name">STORE NAME:</label
-          ><input type="text" name="name" id="name" />
+        <div class="select-div">
+          <div>
+            <label for="name">STORE NAME:</label
+            ><input type="text" name="name" id="name" />
+          </div>
+          <div>
+            <label for="category">CATEGORY:</label
+            ><select name="category" id="category"
+              ><option value="none"></option
+              ><option value="oil">Oil</option
+              ><option value="acid">Acid</option
+              ><option value="alcohol">Alcohol</option
+              ><option value="ester">Ester</option
+              ><option value="ether">Ether</option
+              ><option value="solvent">Solvent</option
+              ><option value="fuel">Fuel</option
+              ><option value="detergent">Detergent</option
+              ><option value="pesticide">Pesticide</option
+              ><option value="xylene">Xylene</option></select
+            >
+          </div>
+          <div>
+            <label for="state">STATE:</label
+            ><select name="state" id="state">
+              <option value="none"></option>
+              <option value="AC,">AC</option>
+              <option value="AL,">AL</option>
+              <option value="AP,">AP</option>
+              <option value="AM,">AM</option>
+              <option value="BA,">BA</option>
+              <option value="CE,">CE</option>
+              <option value="DF,">DF</option>
+              <option value="ES,">ES</option>
+              <option value="GO,">GO</option>
+              <option value="MA,">MA</option>
+              <option value="MT,">MT</option>
+              <option value="MS,">MS</option>
+              <option value="MG,">MG</option>
+              <option value="PA,">PA</option>
+              <option value="PB,">PB</option>
+              <option value="PR,">PR</option>
+              <option value="PE,">PE</option>
+              <option value="PI,">PI</option>
+              <option value="RJ,">RJ</option>
+              <option value="RN,">RN</option>
+              <option value="RS,">RS</option>
+              <option value="RO,">RO</option>
+              <option value="RR,">RR</option>
+              <option value="SC,">SC</option>
+              <option value="SP,">SP</option>
+              <option value="SE,">SE</option>
+              <option value="TO,">TO</option>
+            </select>
+          </div>
+          <div>
+            <label for="distance">DISTANCE:</label
+            ><select name="distance" id="distance"
+              ><option value="none"></option
+              ><option value="less-50">Less than 50 km</option
+              ><option value="50-100">Between 50 and 100 km</option
+              ><option value="100-200">Between 100 and 200 km</option
+              ><option value="200-500">Between 200 and 500 km</option
+              ><option value="more-500">More than 500 km</option></select
+            >
+          </div>
+          <div>
+            <label for="price">PRICE RANGE:</label
+            ><select name="price" id="price"
+              ><option value="none"></option
+              ><option value="$">$</option
+              ><option value="$$">$$</option
+              ><option value="$$$">$$$</option
+              ><option value="$$$$">$$$$</option
+              ><option value="$$$$$">$$$$$</option></select
+            >
+          </div>
         </div>
-        <div>
-          <label for="category">CATEGORY:</label
-          ><select name="category" id="category"
-            ><option value="none"></option
-            ><option value="oil">Oil</option
-            ><option value="acid">Acid</option
-            ><option value="alcohol">Alcohol</option
-            ><option value="ester">Ester</option
-            ><option value="ether">Ether</option
-            ><option value="solvent">Solvent</option
-            ><option value="fuel">Fuel</option
-            ><option value="detergent">Detergent</option
-            ><option value="pesticide">Pesticide</option
-            ><option value="xylene">Xylene</option></select
-          >
+        <div class="form-buttons">
+          <a class="search-results" href="filter.html">Search</a>
+          <button class="clear-filter" type="reset">
+            <img src="images/clear.png" alt="Clear Icon" />Clear filter
+          </button>
         </div>
-        <div>
-          <label for="state">STATE:</label
-          ><select name="state" id="state">
-            <option value="none"></option>
-            <option value="AC,">AC</option>
-            <option value="AL,">AL</option>
-            <option value="AP,">AP</option>
-            <option value="AM,">AM</option>
-            <option value="BA,">BA</option>
-            <option value="CE,">CE</option>
-            <option value="DF,">DF</option>
-            <option value="ES,">ES</option>
-            <option value="GO,">GO</option>
-            <option value="MA,">MA</option>
-            <option value="MT,">MT</option>
-            <option value="MS,">MS</option>
-            <option value="MG,">MG</option>
-            <option value="PA,">PA</option>
-            <option value="PB,">PB</option>
-            <option value="PR,">PR</option>
-            <option value="PE,">PE</option>
-            <option value="PI,">PI</option>
-            <option value="RJ,">RJ</option>
-            <option value="RN,">RN</option>
-            <option value="RS,">RS</option>
-            <option value="RO,">RO</option>
-            <option value="RR,">RR</option>
-            <option value="SC,">SC</option>
-            <option value="SP,">SP</option>
-            <option value="SE,">SE</option>
-            <option value="TO,">TO</option>
-          </select>
-        </div>
-        <div>
-          <label for="distance">DISTANCE:</label
-          ><select name="distance" id="distance"
-            ><option value="none"></option
-            ><option value="less-50">Less than 50 km</option
-            ><option value="50-100">Between 50 and 100 km</option
-            ><option value="100-200">Between 100 and 200 km</option
-            ><option value="200-500">Between 200 and 500 km</option
-            ><option value="more-500">More than 500 km</option></select
-          >
-        </div>
-        <div>
-          <label for="price">PRICE RANGE:</label
-          ><select name="price" id="price"
-            ><option value="none"></option
-            ><option value="$">$</option
-            ><option value="$$">$$</option
-            ><option value="$$$">$$$</option
-            ><option value="$$$$">$$$$</option
-            ><option value="$$$$$">$$$$$</option></select
-          >
-        </div>
-        <a class="search-results" href="filter.html">Search</a>
-        <button class="clear-filter" type="reset">
-          <img src="images/clear.png" alt="Clear Icon" />Clear filter
-        </button>
       </form>
     </section>
     <section class="search-results-section">
@@ -149,17 +153,17 @@
     </section>
     <nav class="bottom-nav">
       <div class="margin-center">
-        <a href="#">HOME</a>
-        <a href="#">SEARCH</a>
-        <a href="#">ABOUT US</a>
+        <a class="home" href="#">HOME</a>
+        <a class="search-bottom-footer" href="#">SEARCH</a>
+        <a class="about-us" href="#">ABOUT US</a>
         <a class="advertise" href="#">ADVERTISE</a>
         <a class="footer-logo" href="#"
           ><img src="images/logo.png" alt="Icon"
         /></a>
         <a class="facebook" href="#">FACEBOOK</a>
-        <a href="#">TWITTER</a>
-        <a href="#">BLOG</a>
-        <a href="#">GOOGLE +</a>
+        <a class="twitter" href="#">TWITTER</a>
+        <a class="blog" href="#">BLOG</a>
+        <a class="google" href="#">GOOGLE +</a>
       </div>
     </nav>
     <section class="sub-con-ab">

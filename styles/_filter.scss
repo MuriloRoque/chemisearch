@@ -9,6 +9,12 @@
   }
   form {
     @include flexCenter(row, flex-end);
+    .form-buttons {
+      @include flexCenter(row, flex-end);
+    }
+    .select-div {
+      @include flexCenter(row, center);
+    }
     div {
       @include flexCenter(column, flex-start);
       margin-right: 0.5rem;
