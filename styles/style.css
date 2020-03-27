@@ -7,6 +7,10 @@ html {
   min-width: 170px;
 }
 
+body {
+  min-width: 320px;
+}
+
 .w-100 {
   width: 100%;
 }
@@ -1078,6 +1082,12 @@ footer .social-icons {
     width: 100%;
     max-width: 38rem;
   }
+  .four-steps {
+    text-align: center;
+  }
+  .four-steps h1 {
+    margin-top: 3.5rem;
+  }
   .info-section article {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1156,6 +1166,56 @@ footer .social-icons {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
   }
+  .info-div {
+    margin-left: 2.9rem;
+    margin-right: 2.9rem;
+  }
+  .info-div .apply-link {
+    font-size: 1rem;
+  }
+  .info-div .bottom-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .info-div .bottom-info span {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .info-div .info-grid {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    margin-right: 0;
+  }
+  .info-div .info-grid div {
+    font-size: 1.4rem;
+  }
+  .company-text {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+  .click-details {
+    margin-left: 3rem;
+    margin-right: 3rem;
+    padding: 0;
+  }
+  .click-details a {
+    font-size: 1.4rem;
+  }
+  .click-details a img {
+    width: 2.8rem;
+  }
+  .map-section {
+    font-size: 2.3rem;
+  }
+  .map-section img {
+    width: 2.8rem;
+  }
 }
 
 @media only screen and (max-width: 340px) {
@@ -1178,27 +1238,22 @@ footer .social-icons {
   footer .social-icons {
     width: 1rem;
   }
-}
-
-@media only screen and (max-width: 200px) {
-  .filter-section form .form-buttons {
-    display: block;
+  .click-details {
+    margin-left: 3rem;
+    margin-right: 3rem;
+    padding: 0;
   }
-  .filter-section form .form-buttons .search-results,
-  .filter-section form .form-buttons .clear-filter {
-    margin-bottom: 1rem;
-    display: block;
-    width: 100%;
+  .click-details a {
+    font-size: 1.4rem;
   }
-  .sub-con-ab {
-    font-size: 0.9rem;
+  .click-details a img {
+    width: 2.2rem;
   }
-  .sub-con-ab .sub-send {
-    font-size: 0.8rem;
-    padding: 0.5rem 1rem;
+  .map-section {
+    font-size: 1.5rem;
   }
-  .sub-con-ab h1 {
-    font-size: 0.8rem;
+  .map-section img {
+    width: 2rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
