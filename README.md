@@ -1,24 +1,24 @@
 # Capstone Project
 
-This is a
+This is a search engine called Chemisearch, where you can search for companies that sells these products:
 
-![screenshot](images/screenshot.png)
+![screenshot](https://media.giphy.com/media/LRxXMIKTP1IuymQmJ9/giphy.gif)
 
 # What it does
 
-This page shows a
+This page shows a search engine for chemical products in Brazil.
 
 ## Built with
 
-HTML and CSS
+HTML, CSS and SASS.
 
 ## Live Demo
 
-[Click for live webpage]()
+[Click for live webpage](https://raw.githack.com/MuriloRoque/Capstone-Project/feature-branch/index.html)
 
 ## Getting Started
 
-You will be redirected to
+You will be redirected to a webpage where you can start a search for a company that sells the chemical products you want. You can refine your search by name, state, distance and price range. Also, when you click the search button, basic information about the company you selected will be shown.
 
 ## Author
 
