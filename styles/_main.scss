@@ -1,6 +1,7 @@
 .search-section {
   background: url(../images/background.jpg), no-repeat;
   @include flexCenter(column, center);
+  position: relative;
   h1 {
     color: $color3;
     margin: 7rem 0 2rem 0;
@@ -343,7 +344,7 @@
     color: #ece8e8ab;
     padding: 1.2rem 0.8rem 1rem 0.8rem;
     outline: none;
-    width: 24rem;
+    width: 22rem;
     height: 3.7rem;
     border: 0.2rem solid #e7e4e44b;
   }

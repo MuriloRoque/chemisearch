@@ -2,15 +2,9 @@ html {
   font-size: 62.5%;
   font-family: Helvetica;
   scroll-behavior: smooth;
+  max-width: 1440px;
+  margin: 0 auto;
 }
-
-@import "./variables";
-@import "./mixins";
-@import "./header";
-@import "./main";
-@import "./footer";
-@import "./filter";
-@import "./detail";
 
 .w-100 {
   width: 100%;
@@ -31,3 +25,12 @@ html {
 .d-inline-block {
   display: inline-block;
 }
+
+@import "./variables";
+@import "./mixins";
+@import "./header";
+@import "./main";
+@import "./footer";
+@import "./filter";
+@import "./detail";
+@import "./media";

@@ -3,6 +3,7 @@
   color: $color4;
   text-align: center;
   padding: 4rem 1rem 8rem 1rem;
+  margin-top: 7rem;
   h1 {
     margin-bottom: 3rem;
   }
@@ -77,7 +78,7 @@
         border: 0.3rem solid $color1;
       }
       img {
-        width: 40rem;
+        width: 100%;
         border: thin solid $color19;
       }
     }
