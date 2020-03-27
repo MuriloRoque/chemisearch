@@ -1,5 +1,5 @@
 .search-section {
-  background: url(images/background.jpg), no-repeat;
+  background: url(../images/background.jpg), no-repeat;
   @include flexCenter(column, center);
   h1 {
     color: $color3;

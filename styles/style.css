@@ -90,7 +90,7 @@ header nav a:hover {
 }
 
 .search-section {
-  background: url(images/background.jpg), no-repeat;
+  background: url(../images/background.jpg), no-repeat;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
