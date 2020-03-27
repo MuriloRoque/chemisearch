@@ -58,3 +58,28 @@
     }
   }
 }
+
+.search-results-section {
+  text-align: center;
+  h1 {
+    color: $color9;
+    font-weight: 600;
+    margin: 5rem 0 3rem 0;
+  }
+  div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+    margin-bottom: 5rem;
+    padding: 2rem;
+    a {
+      &:hover {
+        border: 0.3rem solid $color1;
+      }
+      img {
+        width: 40rem;
+        border: thin solid $color19;
+      }
+    }
+  }
+}
