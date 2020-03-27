@@ -8,6 +8,59 @@
   }
 }
 
-// @media only screen and (max-width: 1024ps) {
-
-// }
+@media only screen and (max-width: 1024px) {
+  header {
+    align-items: flex-start;
+    nav {
+      a {
+        margin-right: 3rem;
+        span {
+          display: none;
+        }
+      }
+      .icons {
+        margin: 1rem 3rem 0 0;
+      }
+    }
+  }
+  .steps-section {
+    grid-template-columns: 1fr;
+  }
+  .info-section {
+    article {
+      div {
+        width: 30rem;
+      }
+    }
+  }
+  .bottom-nav {
+    div {
+      a {
+        font-size: 1.1rem;
+      }
+    }
+  }
+  .sub-con-ab {
+    .sub-send {
+      display: block;
+      width: fit-content;
+      margin: 1.5rem auto;
+      padding: 0.5rem 3.1rem;
+      height: fit-content;
+    }
+  }
+  form {
+    flex-wrap: wrap;
+    .search-results {
+      margin: 2rem 30rem;
+    }
+    .clear-filter {
+      margin-bottom: 2rem;
+    }
+  }
+  .search-results-section {
+    div {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+}

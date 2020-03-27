@@ -6,13 +6,15 @@
     color: $color3;
     margin: 7rem 0 2rem 0;
     font-size: 3rem;
+    width: 70%;
+    text-align: center;
   }
   .search-div {
     background-color: $color19;
     @include flexCenter(column, flex-start);
     padding: 4rem 5rem 3.5rem 3.5rem;
     border-radius: 1rem;
-    width: 91.684rem;
+    width: 70%;
     label {
       align-self: flex-start;
       font-weight: 700;
@@ -20,9 +22,10 @@
       font-size: 1.5rem;
     }
     div {
-      @include flexCenter(row, center);
+      @include flexLeft(row, center);
+      width: 100%;
       input {
-        width: 70rem;
+        width: 88%;
         height: 4.2rem;
         border: none;
         padding: 0 0 0 1rem;
@@ -30,6 +33,7 @@
         font-size: 2.5rem;
       }
       a {
+        width: 12rem;
         background-color: $color1;
         text-decoration: none;
         color: $color2;

@@ -25,3 +25,10 @@
   align-items: $align;
   flex-direction: $direction;
 }
+
+@mixin flexRight($direction, $align) {
+  display: flex;
+  justify-content: right;
+  align-items: $align;
+  flex-direction: $direction;
+}

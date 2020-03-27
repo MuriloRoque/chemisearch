@@ -47,7 +47,16 @@
       }
     }
     .clear-filter {
+      border: none;
+      height: 3rem;
       background-color: $color8;
+      outline: none;
+      border-radius: 0.5rem;
+      font-size: 1.2rem;
+      color: $color2;
+      font-weight: 700;
+      padding: 0.6rem 1rem;
+      cursor: pointer;
       &:hover {
         background-color: $color4;
         color: $color2;
