@@ -864,7 +864,7 @@ footer .social-icons {
 .search-results-section div {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr) [3];
+  -ms-grid-columns: 1fr 1fr 1fr;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 2rem;
   margin-bottom: 5rem;
@@ -883,8 +883,8 @@ footer .social-icons {
 .info-div {
   margin: 12rem 5rem 1rem 5rem;
   padding: 2rem 1.5rem 1rem 1.5rem;
-  -webkit-box-shadow: 0rem 0rem 1rem 0.01rem #929399;
-  box-shadow: 0rem 0rem 1rem 0.01rem #929399;
+  -webkit-box-shadow: 0 0 1rem 0.01rem #929399;
+  box-shadow: 0 0 1rem 0.01rem #929399;
   text-align: right;
 }
 
@@ -916,7 +916,7 @@ footer .social-icons {
 .info-div .info-grid {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr) [2];
+  -ms-grid-columns: 1fr 1fr;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 0.8rem;
   margin: 0 2rem 3rem 0;
@@ -1027,38 +1027,48 @@ footer .social-icons {
     -ms-flex-align: start;
     align-items: flex-start;
   }
+
   header nav a {
     margin-right: 3rem;
   }
+
   header nav a span {
     display: none;
   }
+
   header nav .icons {
     margin: 1rem 3rem 0 0;
   }
+
   .search-section .search-div div a {
     background-color: #4795d5;
   }
+
   .steps-section {
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
   }
+
   .info-section article div {
     width: 50%;
   }
+
   .info-section article .picture-round-img {
     width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;
   }
+
   .info-section article .cellphone-container {
     width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;
   }
+
   .bottom-nav div a {
     font-size: 1.1rem;
   }
+
   .sub-con-ab .sub-send {
     display: block;
     width: -webkit-fit-content;
@@ -1070,16 +1080,19 @@ footer .social-icons {
     height: -moz-fit-content;
     height: fit-content;
   }
+
   .filter-section form {
     display: block;
   }
+
   .filter-section form .select-div {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     margin-bottom: 2rem;
   }
+
   .search-results-section div {
-    -ms-grid-columns: (1fr) [2];
+    -ms-grid-columns: 1fr 1fr;
     grid-template-columns: repeat(2, 1fr);
   }
 }
@@ -1091,33 +1104,41 @@ footer .social-icons {
     height: 20%;
     padding: 0;
   }
+
   header a {
     display: block;
   }
+
   header nav .icons {
     margin: 0;
     width: 3rem;
     height: 3rem;
   }
+
   header nav a {
     margin: 1rem 2.5rem 1rem 2.5rem;
   }
+
   .search-section h1 {
     width: 98%;
     line-height: 3rem;
     font-size: 2.5rem;
     margin-top: 20rem;
   }
+
   .search-section .search-div {
     width: 98%;
     padding: 1rem 1.5rem 1.5rem 1rem;
   }
+
   .search-section .search-div div {
     display: block;
   }
+
   .search-section .search-div div input {
     width: 100%;
   }
+
   .search-section .search-div div a {
     font-weight: 700;
     text-align: center;
@@ -1126,16 +1147,20 @@ footer .social-icons {
     width: 100%;
     background-color: #d45749;
   }
+
   .steps-section .step {
     width: 100%;
     max-width: 38rem;
   }
+
   .four-steps {
     text-align: center;
   }
+
   .four-steps h1 {
     margin-top: 3.5rem;
   }
+
   .info-section article {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1146,95 +1171,120 @@ footer .social-icons {
     height: fit-content;
     padding: 2rem 1rem;
   }
+
   .info-section article div {
     min-width: -webkit-fit-content;
     min-width: -moz-fit-content;
     min-width: fit-content;
     margin-top: 5rem;
   }
+
   .info-section article div img {
     display: none;
   }
+
   .info-section article .round-img {
     display: block;
     min-width: 50%;
     height: 100%;
     margin: 0 auto;
   }
+
   .info-section .registered .picture-round-img {
     margin-bottom: 5rem;
     text-align: center;
   }
+
   .info-section .anytime {
     height: 15rem;
     border-bottom: none;
   }
+
   .info-section .anytime div {
     margin-bottom: 0;
   }
+
   .info-section .anytime div p {
     margin-bottom: 2rem;
   }
+
   .info-section .anytime .cellphone-container {
     display: none;
   }
+
   .bottom-nav {
     padding: 5rem 1rem;
   }
+
   .bottom-nav div {
     width: 100%;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
   }
+
   .bottom-nav div a {
     margin: 0 1rem;
   }
+
   .bottom-nav div .footer-logo {
     display: none;
   }
+
   .bottom-nav div .advertise {
     margin-right: 1rem;
   }
+
   .bottom-nav div .facebook {
     margin-left: 1rem;
   }
+
   .sub-con-ab {
     display: block;
   }
+
   .sub-con-ab .sub,
   .sub-con-ab .con,
   .sub-con-ab .ab {
     width: 100%;
     margin-bottom: 2rem;
   }
+
   .sub-con-ab h1 {
     font-size: 1.5rem;
   }
+
   .sub-con-ab input {
     width: 100%;
   }
+
   .filter-section form div {
     width: 100%;
   }
+
   .filter-section form div input,
   .filter-section form div select {
     width: 100%;
   }
+
   .filter-section form div #state,
   .filter-section form div #price {
     width: 100%;
   }
+
   .search-results-section div {
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
   }
+
   .info-div {
     margin-left: 2.9rem;
     margin-right: 2.9rem;
   }
+
   .info-div .apply-link {
     font-size: 1rem;
   }
+
   .info-div .bottom-info {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1242,6 +1292,7 @@ footer .social-icons {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
   }
+
   .info-div .bottom-info span {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1249,32 +1300,40 @@ footer .social-icons {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
   }
+
   .info-div .info-grid {
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
     margin-right: 0;
   }
+
   .info-div .info-grid div {
     font-size: 1.4rem;
   }
+
   .company-text {
     margin-left: 3rem;
     margin-right: 3rem;
   }
+
   .click-details {
     margin-left: 3rem;
     margin-right: 3rem;
     padding: 0;
   }
+
   .click-details a {
     font-size: 1.4rem;
   }
+
   .click-details a img {
     width: 2.8rem;
   }
+
   .map-section {
     font-size: 2.3rem;
   }
+
   .map-section img {
     width: 2.8rem;
   }
@@ -1285,37 +1344,46 @@ footer .social-icons {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
   }
+
   .sub-con-ab {
     font-size: 0.9rem;
   }
+
   .sub-con-ab .sub-send {
     padding: 0.5rem 1rem;
   }
+
   .sub-con-ab h1 {
     font-size: 1.1rem;
   }
+
   footer {
     font-size: 1rem;
   }
+
   footer .social-icons {
     width: 1rem;
   }
+
   .click-details {
     margin-left: 3rem;
     margin-right: 3rem;
     padding: 0;
   }
+
   .click-details a {
     font-size: 1.4rem;
   }
+
   .click-details a img {
     width: 2.2rem;
   }
+
   .map-section {
     font-size: 1.5rem;
   }
+
   .map-section img {
     width: 2rem;
   }
 }
-/*# sourceMappingURL=style.css.map */
