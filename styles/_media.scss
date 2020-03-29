@@ -38,7 +38,13 @@
   .info-section {
     article {
       div {
-        width: 30rem;
+        width: 50%;
+      }
+      .picture-round-img {
+        width: fit-content;
+      }
+      .cellphone-container {
+        width: fit-content;
       }
     }
   }
@@ -138,23 +144,37 @@
       flex-direction: column;
       height: fit-content;
       padding: 2rem 1rem;
-      picture {
-        width: 70%;
-        height: 100%;
+      div {
+        min-width: fit-content;
+        margin-top: 5rem;
         img {
           display: none;
         }
       }
       .round-img {
         display: block;
-        width: 100%;
+        min-width: 50%;
         height: 100%;
         margin: 0 auto;
       }
-      div {
-        width: 100%;
+    }
+    .registered {
+      .picture-round-img {
         margin-bottom: 5rem;
         text-align: center;
+      }
+    }
+    .anytime {
+      height: 15rem;
+      border-bottom: none;
+      div {
+        margin-bottom: 0;
+        p {
+          margin-bottom: 2rem;
+        }
+      }
+      .cellphone-container {
+        display: none;
       }
     }
   }

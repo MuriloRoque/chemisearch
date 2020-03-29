@@ -124,7 +124,7 @@
       height: 26rem;
     }
     div {
-      width: 40rem;
+      width: fit-content;
     }
   }
   .registered {
@@ -132,8 +132,9 @@
     a {
       color: $color12;
     }
-    picture {
+    .picture-round-img {
       position: relative;
+      width: fit-content;
       img[class^="abs-img"] {
         position: absolute;
         &:hover {
@@ -270,6 +271,24 @@
   }
   .anytime {
     background-color: $color14;
+    border-bottom: 2rem solid $color14;
+    overflow: hidden;
+    @include flexBetween(row, center);
+    .cellphone-container {
+      position: relative;
+      left: 12rem;
+      top: 14rem;
+      .cellphone-pic {
+        width: 50rem;
+      }
+      .screenshot {
+        position: absolute;
+        width: 21.2rem;
+        height: 17rem;
+        right: 14.4rem;
+        top: 8.25rem;
+      }
+    }
   }
 }
 
