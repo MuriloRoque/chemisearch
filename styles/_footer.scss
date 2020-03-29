@@ -1,0 +1,12 @@
+footer {
+  background-color: $color16;
+  @include flexBetween(row, flex-start);
+  padding: 3rem 1rem;
+  color: $color20;
+  font-size: 1.5rem;
+  font-weight: 700;
+  .social-icons {
+    margin-right: 1rem;
+    width: 2rem;
+  }
+}
