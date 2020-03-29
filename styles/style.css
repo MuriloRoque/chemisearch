@@ -1,6 +1,6 @@
 html {
   font-size: 62.5%;
-  font-family: Helvetica;
+  font-family: Helvetica, sans-serif;
   scroll-behavior: smooth;
   max-width: 1440px;
   margin: 0 auto;
@@ -115,6 +115,21 @@ header nav a {
   font-weight: 500;
 }
 
+.info-section article a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 1rem 0.5rem;
+  background-color: #fff;
+}
+
+.bottom-nav div a {
+  margin: 0;
+  text-decoration: none;
+  font-size: 2rem;
+  color: #fff;
+}
+
 header nav a:hover {
   -webkit-transform: rotate(-10deg);
   transform: rotate(-10deg);
@@ -174,6 +189,32 @@ header nav a:hover {
   font-size: 1.5rem;
 }
 
+.info-section article div {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.bottom-nav div {
+  position: relative;
+  width: 90%;
+  border-top: 0.2rem solid #e7e4e44b;
+  border-bottom: 0.2rem solid #e7e4e44b;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  padding: 2rem 0;
+}
+
 .search-section .search-div div {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -200,6 +241,14 @@ header nav a:hover {
   font-size: 2.5rem;
 }
 
+.info-section .registered a {
+  color: #e27e65;
+}
+
+.info-section .no-need a {
+  color: #98a5a6;
+}
+
 .search-section .search-div div a {
   width: 12rem;
   background-color: #d45749;
@@ -208,6 +257,11 @@ header nav a:hover {
   padding: 1rem 2rem;
   font-size: 1.5rem;
   font-weight: 500;
+}
+
+.info-section article a:hover {
+  background-color: #d45749;
+  color: #fff;
 }
 
 .search-section .search-div div a:hover {
@@ -271,6 +325,12 @@ header nav a:hover {
   font-size: 2.5rem;
 }
 
+.info-section article p {
+  color: #fff;
+  font-size: 1.3rem;
+  margin-bottom: 4rem;
+}
+
 .steps-section .step p {
   margin-top: 0;
   text-align: center;
@@ -304,43 +364,14 @@ header nav a:hover {
   margin: 0;
 }
 
-.info-section article p {
-  color: #fff;
-  font-size: 1.3rem;
-  margin-bottom: 4rem;
-}
-
-.info-section article a {
-  text-decoration: none;
-  font-size: 1.5rem;
-  font-weight: 700;
-  padding: 1rem 0.5rem;
-  background-color: #fff;
-}
-
-.info-section article a:hover {
-  background-color: #d45749;
-  color: #fff;
-}
-
 .info-section article .round-img {
   border-radius: 50%;
   width: 26rem;
   height: 26rem;
 }
 
-.info-section article div {
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-}
-
 .info-section .registered {
   background-color: #e27e65;
-}
-
-.info-section .registered a {
-  color: #e27e65;
 }
 
 .info-section .registered .picture-round-img {
@@ -513,10 +544,6 @@ header nav a:hover {
   background-color: #98a5a6;
 }
 
-.info-section .no-need a {
-  color: #98a5a6;
-}
-
 .info-section .anytime {
   background-color: #519bd8;
   border-bottom: 2rem solid #519bd8;
@@ -557,33 +584,6 @@ header nav a:hover {
 .bottom-nav {
   background-color: #000;
   padding: 5rem;
-}
-
-.bottom-nav div {
-  position: relative;
-  width: 90%;
-  border-top: 0.2rem solid #e7e4e44b;
-  border-bottom: 0.2rem solid #e7e4e44b;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-  justify-content: space-around;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  padding: 2rem 0;
-}
-
-.bottom-nav div a {
-  margin: 0;
-  text-decoration: none;
-  font-size: 2rem;
-  color: #fff;
 }
 
 .bottom-nav div a:hover {
