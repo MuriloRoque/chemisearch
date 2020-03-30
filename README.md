@@ -4,6 +4,8 @@ This is a search engine called Chemisearch, where you can search for companies t
 
 ![screenshot](https://media.giphy.com/media/LRxXMIKTP1IuymQmJ9/giphy.gif)
 
+[Video presentation](https://www.loom.com/share/b46d20092a43488e8280fbfbecd81477)
+
 # What it does
 
 This page shows a search engine for chemical products in Brazil.
