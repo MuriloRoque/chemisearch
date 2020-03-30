@@ -420,6 +420,19 @@ header nav a:hover {
   width: 4rem;
 }
 
+.sub-con-ab h2 {
+  color: #fff;
+  font-weight: 400;
+  margin: 0 0 2rem 0;
+  font-size: 2rem;
+}
+
+.search-results-section h2 {
+  color: #6f6a68;
+  font-weight: 600;
+  margin: 5rem 0 3rem 0;
+}
+
 .steps-section .step h2 {
   font-size: 2.5rem;
 }
@@ -761,13 +774,6 @@ header nav a:hover {
   width: 30rem;
 }
 
-.sub-con-ab h2 {
-  color: #fff;
-  font-weight: 400;
-  margin: 0 0 2rem 0;
-  font-size: 2rem;
-}
-
 .sub-con-ab .red-text {
   color: #d45749;
   text-decoration: none;
@@ -886,12 +892,6 @@ header nav a:hover {
 
 .search-results-section {
   text-align: center;
-}
-
-.search-results-section h2 {
-  color: #6f6a68;
-  font-weight: 600;
-  margin: 5rem 0 3rem 0;
 }
 
 .info-div {
