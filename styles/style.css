@@ -2,7 +2,6 @@ html {
   font-size: 62.5%;
   font-family: Helvetica, sans-serif;
   scroll-behavior: smooth;
-  max-width: 1440px;
   margin: 0 auto;
   min-width: 170px;
 }
@@ -29,6 +28,11 @@ body {
 
 .d-inline-block {
   display: inline-block;
+}
+
+h2 {
+  font-size: 2em;
+  margin: 0.67em 0;
 }
 
 header {
@@ -757,10 +761,11 @@ header nav a:hover {
   width: 30rem;
 }
 
-.sub-con-ab h1 {
+.sub-con-ab h2 {
   color: #fff;
   font-weight: 400;
   margin: 0 0 2rem 0;
+  font-size: 2rem;
 }
 
 .sub-con-ab .red-text {
@@ -883,7 +888,7 @@ header nav a:hover {
   text-align: center;
 }
 
-.search-results-section h1 {
+.search-results-section h2 {
   color: #6f6a68;
   font-weight: 600;
   margin: 5rem 0 3rem 0;
@@ -1026,6 +1031,11 @@ footer .social-icons {
     -webkit-box-align: start;
     -ms-flex-align: start;
     align-items: flex-start;
+    justify-content: unset;
+  }
+
+  header nav {
+    margin-left: 5rem;
   }
 
   header nav a {
@@ -1109,10 +1119,14 @@ footer .social-icons {
     display: block;
   }
 
+  header nav {
+    margin-left: 0;
+  }
+
   header nav .icons {
     margin: 0;
-    width: 3rem;
-    height: 3rem;
+    width: 2rem;
+    height: 2rem;
   }
 
   header nav a {
@@ -1196,7 +1210,7 @@ footer .social-icons {
     text-align: center;
   }
 
-  .four-steps h1 {
+  .four-steps h2 {
     margin-top: 3.5rem;
   }
 
@@ -1279,7 +1293,7 @@ footer .social-icons {
     margin-bottom: 2rem;
   }
 
-  .sub-con-ab h1 {
+  .sub-con-ab h2 {
     font-size: 1.5rem;
   }
 
@@ -1353,7 +1367,7 @@ footer .social-icons {
     padding: 0.5rem 1rem;
   }
 
-  .sub-con-ab h1 {
+  .sub-con-ab h2 {
     font-size: 1.1rem;
   }
 
