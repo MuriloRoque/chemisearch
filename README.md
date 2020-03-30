@@ -4,7 +4,36 @@ This is a search engine called Chemisearch, where you can search for companies t
 
 ![screenshot](https://media.giphy.com/media/LRxXMIKTP1IuymQmJ9/giphy.gif)
 
-[Video presentation](https://www.loom.com/share/b46d20092a43488e8280fbfbecd81477)
+This project is an online directory of chemicals in Brazil, you can find all of the requirements here. You can find the video presentation in this link.
+
+In this project, I built:
+
+- The main page, with a link to the results page by clicking the "search" button or the "companies" link in the navbar;
+- The search results page, with a list of chemical companies, each with a link to the detail company page;
+- The detail company page.
+
+Each of these pages have versions for 3 different screen sizes:
+
+- mobile: up to 768px;
+- tablet: up to 1024px;
+- desktop: from 1024px.
+
+I followed the guidelines of the given design, including:
+
+- Colors;
+- Typographies: font face, size, and weight (used a similar one given the design);
+- Layout: composition and space between elements, for the 3 given screen sizes.
+
+In this project I:
+
+- Used semantic HTML tags;
+- Used CSS selectors correctly;
+- Used HTML elements box model (margin, padding, width, height);
+- Used industry-standard tools (flexbox) to place elements in the page;
+- Created UIs adaptable to different screen sizes using media queries;
+- Applied front-end best practices;
+- Used CSS grid and flexbox;
+- Used SASS.
 
 # What it does
 
