@@ -4,7 +4,7 @@ This is a search engine called Chemisearch, where you can search for companies t
 
 ![screenshot](https://media.giphy.com/media/LRxXMIKTP1IuymQmJ9/giphy.gif)
 
-This project is an online directory of chemicals in Brazil, you can find all of the requirements here. You can find the video presentation in this link.
+This project is an online directory of chemicals in Brazil, you can find all of the requirements [here](https://www.notion.so/HTML-CSS-capstone-project-Directory-of-Schools-eea352bfaf3e4a83b2917df1f9a4e140). You can find the video presentation in this [link](https://www.loom.com/share/b46d20092a43488e8280fbfbecd81477).
 
 In this project, I built:
 
