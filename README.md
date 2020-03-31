@@ -58,7 +58,9 @@ You will be redirected to a webpage where you can start a search for a company t
 Murilo Roque Paiva da Silva
 
 Github: @MuriloRoque
+
 Twitter: @MuriloRoquePai1
+
 Linkedin: https://www.linkedin.com/in/murilo-roque-b1268741/
 
 ## 🤝 Contributing
