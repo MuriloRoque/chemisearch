@@ -47,7 +47,7 @@ HTML, CSS and SASS.
 
 ## Live Demo
 
-[Click for live webpage](https://rawcdn.githack.com/MuriloRoque/Capstone-Project/3cb8f7c93bf371681c25eceba2d732735b5cebfd/index.html)
+[Click for live webpage](https://raw.githack.com/MuriloRoque/chemisearch/master/index.html)
 
 ## Getting Started
 
