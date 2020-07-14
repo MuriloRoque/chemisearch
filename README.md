@@ -57,11 +57,11 @@ You will be redirected to a webpage where you can start a search for a company t
 
 Murilo Roque Paiva da Silva
 
-Github: @MuriloRoque
+Github: [@MuriloRoque](https://github.com/MuriloRoque)
 
-Twitter: @MuriloRoquePai1
+Twitter: [@MuriloRoquePai1](https://twitter.com/MuriloRoquePai1)
 
-Linkedin: https://www.linkedin.com/in/murilo-roque-b1268741/
+Linkedin: [MuriloRoque](https://www.linkedin.com/in/murilo-roque-b1268741/)
 
 ## 🤝 Contributing
 
